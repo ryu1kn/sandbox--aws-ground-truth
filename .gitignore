@@ -1,0 +1,6 @@
+/.idea
+/infra/.cdk.staging
+/infra/cdk.out
+/infra/node_modules
+/infra/build
+*.iml
