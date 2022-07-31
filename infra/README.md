@@ -47,5 +47,8 @@ then check the output file in the "cdk.out" directory.
 
 ## References
 
-* [AWS Cloud Development Kit (AWS CDK) - Getting Started](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
+* [AWS Cloud Development Kit (AWS CDK) v2 - Developer Guide](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+* [AWS CDK v2 API Reference](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-construct-library.html)
 * [CDK TypeScript Example](https://github.com/aws-samples/aws-cdk-examples/tree/0342729d5fb380064146a8bb38531fcc00ae6972/typescript)
+* [Use Ground Truth to Label Text - AWS Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/sms-label-text.html)
+* [Input Data - Supported Data Formats](https://docs.aws.amazon.com/sagemaker/latest/dg/sms-supported-data-formats.html)

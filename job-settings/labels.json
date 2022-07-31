@@ -1,0 +1,35 @@
+{
+  "document-version": "2018-11-28",
+  "labels": [
+    {
+      "label": "LIKE",
+      "categoryAttributes": [
+        {
+          "name": "Description",
+          "description": "You like it",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "label": "DISLIKE",
+      "categoryAttributes": [
+        {
+          "name": "Description",
+          "description": "You dislike it",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "label": "DON'T MIND",
+      "categoryAttributes": [
+        {
+          "name": "Description",
+          "description": "You don't mind it",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
