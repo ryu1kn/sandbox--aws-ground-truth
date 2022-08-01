@@ -2,11 +2,11 @@
 
 set -euo pipefail
 
-bucket_name=sandbox--aws-ground-truth--labelling
-account_id="$(aws sts get-caller-identity --query Account --output text)"
+readonly bucket_name=sandbox--aws-ground-truth--labelling
+readonly account_id="$(aws sts get-caller-identity --query Account --output text)"
 
-base_job_name=manually-created-test-job
-timestamp="$(date +"%Y-%m-%dT%H-%M-%S")-AEST"
+readonly base_job_name=manually-created-test-job
+readonly timestamp="$(date +"%Y-%m-%dT%H-%M-%S")-AEST"
 
 aws sagemaker create-labeling-job --cli-input-json "$(cat <<EOF
   {
