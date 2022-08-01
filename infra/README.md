@@ -28,6 +28,19 @@ AWS_PROFILE=<your-profile> aws sts get-caller-identity --query Account --output 
 
 ## Deploy
 
+### Resources created on AWS console and not coded in this repository
+
+The following resources are created manually on AWS Console; so to test this repository
+yourself, you also need to create it upfront.
+
+* AWS Cognito User Pool
+* AWS Ground Truth Private Worker Team: `manually-created-for-test`
+
+### Use CDK to deploy your AWS resources
+
+Other than the resources listed above, all should be covered by CDK.
+You can deploy the resources with:
+
 ```sh
 AWS_PROFILE=<your-profile> yarn cdk deploy
 ```
