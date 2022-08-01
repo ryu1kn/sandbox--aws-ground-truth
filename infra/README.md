@@ -36,6 +36,13 @@ yourself, you also need to create it upfront.
 * AWS Cognito User Pool
 * AWS Ground Truth Private Worker Team: `manually-created-for-test`
 
+You can find the labelling job portal by:
+
+1. Visit your User Pool on AWS Console
+1. Find the App Client for the user pool
+1. Find "Allowed sign-out URLs", it would be something like `https://xyzuw12345.labeling.ap-southeast-2.sagemaker.aws/logout`
+1. Access the domain of the URL (i.e. drop `/logout`)
+
 ### Use CDK to deploy your AWS resources
 
 Other than the resources listed above, all should be covered by CDK.

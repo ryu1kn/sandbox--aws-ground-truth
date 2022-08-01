@@ -20,3 +20,13 @@ The labelling job settings are stored in [job-settings](./job-settings) director
 ```sh
 AWS_PROFILE=your-profile ./create-job.sh
 ```
+
+### Label the data
+
+Visit your labelling job portal. You can find how to find the portal URL
+in the `infra` directory README.
+
+### Check the result
+
+Visit your labelling job on AWS console and follow various links to
+access labelling job results / output.
