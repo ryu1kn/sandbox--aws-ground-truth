@@ -1,11 +1,21 @@
 
 # Sandbox: AWS Ground Truth
 
-* For infrastructure, see [infra](./infra) directory.
-* For labelling job source data, see [job-data](./job-data) directory.
-* For labelling job settings, see [job-settings](./job-settings) directory.
+Playing with AWS Ground Truth to better understand how to use it.
 
-## How to create a labelling job
+## Usage
+
+### Deploy infrastructure
+
+Go to [infra](./infra) and deploy the necessary resources.
+
+### Review the labelling job data and settings
+
+The labelling source data is stored in [job-data](./job-data) directory.
+
+The labelling job settings are stored in [job-settings](./job-settings) directory.
+
+### Create a labelling job
 
 ```sh
 AWS_PROFILE=your-profile ./create-job.sh
